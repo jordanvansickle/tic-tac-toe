@@ -11,3 +11,47 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.body {
+  display: flex;
+}
+
+.game {
+  position: fixed;
+  top: 25%;
+  left: 50%;
+  margin-top: -50px;
+  margin-left: -100px;
+  text-align: center;
+}
+
+.butt {
+  background-color: #eee;
+  border: thin solid #ddd;
+  width: 100px;
+  height: 100px;
+  margin: 10px;
+  font-size: 50px;
+  vertical-align: top;
+}
+
+.butt:hover {
+  background-color: #369ee3;
+  color:white;
+}
+
+.butt:focus, .number:active {
+  outline: none;
+  border: thin solid #ddd;
+}
+
+#outer
+{
+  position: relative;
+    width:100%;
+    text-align: center;
+}
+.inner
+{
+    display: inline-block;
+}
